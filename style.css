@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.first{
+    position: sticky;
+    top: 0;
+    left: 0;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 600;
+}
+.first .navbar-brand{
+    font-size: 40px;
+    font-weight: 700;
+}
+.collapse .navbar-nav .nav-item{
+    align-items: center;
+    text-align: center;
+    float: right;
+    justify-content: space-between;
+    padding-left: 100px;
+    transition: .5s;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover{
+    color: rgb(207, 89, 89);
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1)),url(images/back.jpeg),center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 250px;
+}
+.main h1 {
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+}
+.main h2{
+    font-size: 62px;
+    font-weight: 500;
+    color: white;
+}
+.main button{
+    font-size: 30px;
+    border-radius: 30px;
+    font-weight: 200;
+    border: none;
+    padding: 7px;
+}
+.main button:hover{
+    background-color: rgb(207, 89, 89);
+    color: aliceblue;
+}
+.text h1{
+    font-size: 65px;
+    font-weight: 500;
+    margin: 30px 0;
+    align-items: center;
+    text-align: center;
+}
+#demo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#demo .card{
+    box-shadow: 20px 20px 34px rgba(0,0,0,0.3);
+    border: none;
+}
+#demo .card:hover{
+    box-shadow: 10px 10px 54px rgba(70,62,221,0.1);
+
+}
+#demo .card-text{
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    align-items: center;
+    border: 1px solid black;
+}
+#feature h1{
+    width: 100%;
+    height: 90vh;
+    background: url(images/tex.webp) ,center;
+    background-size: cover;
+    color: white;
+    padding-top: 90px;
+    font-size: 65px;
+    font-weight: 500;
+    margin: 30px 0;
+    align-items: center;
+    text-align: center;   
+}
+#feature button{
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 40px;
+    
+}
+#feature button:hover{
+    background-color: rgb(207, 89, 89);
+}
+#price{
+ margin: 30px 0;   
+}
+#price{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+#price h1{
+    font-size: 50px;
+}
+.copy{
+    display: flex;
+}
+.copy h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.copy h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+.copy .icon{
+    font-size: 35px;
+    transition: .4s ;
+}
+.copy .icon:hover{
+    color: rgb(207, 89, 89);
+}
+.Copyright h1{
+    margin: 30px 0;
+    font-size: 45px;
+}
+
+@media (max-width:799px){
+    #demo .card{
+        margin-top: 20px;
+    }
+    #feature h1{
+    height: 80vh;
+    padding-top: 80px;
+    font-size: 58px;
+    font-weight: 500;
+    margin: 30px 0;
+}
+#feature button{
+    margin-top: 45px;
+    padding: 9px;
+    font-size: 37px;
+    
+}
+#price{
+    display: block;
+    padding: 8px;
+    padding-bottom: 8px;
+}#price img{
+    height: 300px;
+    width: 100%;
+}
+#price h1{
+    font-size: 40px;
+}
+.Copyright h1{
+    font-size: 40px;
+}
+}
+
+
+@media (max-width:399px){
+    .main{
+        height: 90vh;
+    }
+    .main h1 {
+        font-size: 60px;
+    }
+    .main h2{
+        font-size: 55px;
+        font-weight: 400;
+    }
+    .main button{
+        font-size: 27px;
+        padding: 6px;
+    }   
+   .text h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+    #feature h1{
+    height: 70vh;
+    padding-top: 60px;
+    font-size: 45px;
+    font-weight: 400;
+}
+#feature button{
+    margin-top: 25px;
+    padding: 6px;
+    font-size: 30px;
+    
+}
+#price{
+    display: block;
+    padding: 6px;
+    padding-bottom: 6px;
+}#price img{
+    height: 220px;
+    width: 100%;
+}
+#price h1{
+    font-size: 30px;
+}
+.Copyright h1{
+    font-size: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
